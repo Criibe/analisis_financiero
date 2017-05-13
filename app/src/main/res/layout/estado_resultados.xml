@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/tv_empresa_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SALOMÓN S.A DE CV"
+                    android:textAlignment="center"
+                    android:textColor="@color/primary_dark"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_estadoresult"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ESTADO DE RESULTADOS CORPORTATIVO"
+                    android:textAlignment="center"
+                    android:textColor="@color/primary_text" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/er_tv5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/accent"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/er_tv6"
+                        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="numberDecimal"
+                        android:text="2017"
+                        android:textAlignment="textEnd"
+                        android:textAppearance="@android:style/TextAppearance.Material.Medium.Inverse"
+                        android:textColor="@color/accent"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/er_v_pastyear"
+                        style="?attr/borderlessButtonStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text="2016"
+                        android:textAlignment="textEnd"
+                        android:textAppearance="@android:style/TextAppearance.Material.Medium.Inverse"
+                        android:textColor="@color/accent"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="0dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/er_tv1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="VENTAS"
+                            android:textColor="@color/primary_text"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/er_ventas_currentyear"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:hint="$0"
+                            android:inputType="textPersonName"
+                            android:textAlignment="textEnd" />
+
+                        <EditText
+                            android:id="@+id/er_v_pastyear"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:hint="$0"
+                            android:inputType="textPersonName"
+                            android:textAlignment="textEnd" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/er_tv2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="COSTO DE VENTAS"
+                            android:textColor="@color/primary_text"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/er_cv_currentyear"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:hint="$0"
+                            android:inputType="textPersonName"
+                            android:textAlignment="textEnd" />
+
+                        <EditText
+                            android:id="@+id/er_cv_pastyear"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:hint="$0"
+                            android:inputType="textPersonName"
+                            android:textAlignment="textEnd" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/er_tv3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="UTILIDAD BRUTA"
+                            android:textColor="@color/secondary_text"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/er_utilidadbruta_cyear"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="$56382"
+                            android:textAlignment="textEnd"
+                            android:textColor="@color/secondary_text"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/er_utilidadbruta_pyear"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="$326718"
+                            android:textAlignment="textEnd"
+                            android:textColor="@color/secondary_text"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/er_tv4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="GASTOS DE OPERACIÓN"
+                            android:textColor="@color/primary_text"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/er_gastosoper_cyear"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:hint="$0"
+                            android:inputType="textPersonName"
+                            android:textAlignment="textEnd" />
+
+                        <EditText
+                            android:id="@+id/er_gastosopera_pyear"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:hint="$0"
+                            android:inputType="textPersonName"
+                            android:textAlignment="textEnd" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/er_tv3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="UTILIDAD BRUTA"
+                            android:textColor="@android:color/holo_red_dark"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/er_utilidadbruta_cyear"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="$56382"
+                            android:textAlignment="textEnd"
+                            android:textColor="@android:color/holo_red_light"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/er_utilidadbruta_pyear"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="$326718"
+                            android:textAlignment="textEnd"
+                            android:textColor="@android:color/holo_red_light"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_siguiente_estado"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SIGUIENTE"
+                    android:textAlignment="textEnd"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

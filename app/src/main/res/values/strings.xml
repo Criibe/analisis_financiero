@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Analis_fin</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_mostrar_resultadps">mostrar_resultadps</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_mostrar_resultados">Análisis Financieros</string>
+    <string name="title_activity_analisis_financiero">Análisis Financiero</string>
+    <string name="title_activity_analsis_financieros">analsis_financieros</string>
+    <string name="title_activity_cargar_analisis_financiero">cargar_analisis_financiero</string>
+</resources>

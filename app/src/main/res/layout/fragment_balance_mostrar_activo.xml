@@ -1,0 +1,1148 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.csb.csb.analis_fin.balance_mostrar_activo">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_circulante"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_columnSpan="2"
+                        android:layout_weight="1"
+                        android:paddingBottom="5dp"
+                        android:text="ACTIVO"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="27sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_circulante"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_columnSpan="2"
+                            android:layout_weight="1"
+                            android:text="CIRCULANTE"
+                            android:textColor="@color/primary_dark"
+                            android:textSize="27sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/a_tv_space5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_columnSpan="2"
+                            android:layout_weight="1"
+                            android:text="FIJO"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/primary_dark"
+                            android:textSize="27sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@color/primary_light"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tv_circulante"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_columnSpan="2"
+                                android:layout_weight="1"
+                                android:textColor="@color/primary_dark"
+                                android:textSize="27sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/a_tv_space5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_columnSpan="2"
+                                android:layout_weight="1"
+                                android:text="2017"
+                                android:textAlignment="center"
+                                android:textColor="@android:color/background_dark"
+                                android:textSize="24sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView11"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_columnSpan="2"
+                                android:layout_weight="1"
+                                android:text="2016"
+                                android:textAlignment="center"
+                                android:textColor="@android:color/background_dark"
+                                android:textSize="24sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@color/primary_light"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tv_circulante"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_columnSpan="2"
+                                android:layout_weight="1"
+                                android:textColor="@color/primary_dark"
+                                android:textSize="27sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/a_tv_space5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_columnSpan="2"
+                                android:layout_weight="1"
+                                android:text="2017"
+                                android:textAlignment="center"
+                                android:textColor="@android:color/background_dark"
+                                android:textSize="24sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView11"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_columnSpan="2"
+                                android:layout_weight="1"
+                                android:text="2016"
+                                android:textAlignment="center"
+                                android:textColor="@android:color/background_dark"
+                                android:textSize="24sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:paddingBottom="30dp">
+
+                        <LinearLayout
+                            android:id="@+id/hl_circ"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:paddingRight="20dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/a_tv_1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="CAJA"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_caja_cy"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="$3000"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_caja_cy"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="25.78%"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/a_tv_2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="BANCOS"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_bancos_cy"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="$4567"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_bancos_py"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="25.78%"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/pi_tv_3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="ALMACEN"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_almacen_cy"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="25.78%"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_almacen_py"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="25.78%"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/a_tv_4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="CLIENTES"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_clientes_cy"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="25.78%"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_clientes_py"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="25.78%"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/a_tv_6"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="DOCUMENTOS POR COBRAR"
+                                    android:textSize="18sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_doccobrar_cy"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="25.78%"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_doccobrar_cy"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="25.78%"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/a_tv_5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="DEUDORES"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_deudor_cy"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="25.78%"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_deudor_cy"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="25.78%"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/a_tv_7"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_row="7"
+                                    android:layout_weight="1"
+                                    android:paddingTop="10dp"
+                                    android:text="SUMA CIRCULANTE"
+                                    android:textColor="@color/primary_text"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:id="@+id/tv_suma_circulante_cyear"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:paddingTop="10dp"
+                                    android:text="100%"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/secondary_text"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/tv_suma_circulante_pyear"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:paddingTop="10dp"
+                                    android:text="100%"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/secondary_text"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/hl_fijo"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/a_tv_8"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="TERRENOS"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_terr_cy"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:paddingTop="10dp"
+                                    android:text="$5232"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/secondary_text"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_terr_py"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:paddingTop="10dp"
+                                    android:text="44.54%"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/secondary_text"
+                                    android:textSize="20sp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/a_tv_9"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="EDIFICIOS"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/textView41"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:paddingTop="10dp"
+                                    android:text="$200"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/secondary_text"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_edif_py"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:paddingTop="10dp"
+                                    android:text="44.54%"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/secondary_text"
+                                    android:textSize="20sp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/a_tv_10"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="MOBILIARIO"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_mobil_cy"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:paddingTop="10dp"
+                                    android:text="44.54%"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/secondary_text"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_mobil_py"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:paddingTop="10dp"
+                                    android:text="44.54%"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/secondary_text"
+                                    android:textSize="20sp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/a_tv_11"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="EQUIPO DE CÓMPUTO"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_eqcomp_cy"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:paddingTop="10dp"
+                                    android:text="44.54%"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/secondary_text"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_eqcomp_py"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:paddingTop="10dp"
+                                    android:text="44.54%"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/secondary_text"
+                                    android:textSize="20sp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/a_tv_12"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="EQUIPO DE REPARTO"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_eq_rep_cy"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:paddingTop="10dp"
+                                    android:text="44.54%"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/secondary_text"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_eq_rep_py"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:paddingTop="10dp"
+                                    android:text="44.54%"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/secondary_text"
+                                    android:textSize="20sp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/a_tv_13"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:paddingTop="10dp"
+                                    android:text="SUMA FIJO"
+                                    android:textColor="@color/primary_text"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_suma_fijo_cy"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:paddingTop="10dp"
+                                    android:text="100%"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/secondary_text"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_suma_fijo_cy"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:paddingTop="10dp"
+                                    android:text="$ 100%"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/secondary_text"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tv_circulante"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="DIFERIDO"
+                                android:textColor="@color/primary_dark"
+                                android:textSize="27sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/df_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:paddingRight="20dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/a_tv_14"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="DEPOSITOS EN GARANTIA"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_depo_cy"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="25.78%"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_depo_py"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="25.78%"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/a_tv_15"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="GASTOS DE INSTALACIÓN"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_inst_cy"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="25.78%"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_inst_cy"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="25.78%"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/a_tv_16"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="GASTOS DE ORGANIZACIÓN"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_orga_cy"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="25.78%"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_orga_py"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="25.78%"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/a_tv_17"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="PAPELERÍA Y ÚTILES"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_pape_cy"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="25.78%"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_pape_py"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="25.78%"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/a_tv_18"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="PROPAGANDA Y PUBLICIDAD"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_public_cy"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="25.78%"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_public_py"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="25.78%"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/df_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/a_tv_19"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="PRIMAS DE SEGURO"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_seguros_cy"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="25.78%"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_seguros_py"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="25.78%"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/a_tv_19"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="RENTAS ANTICIPADAS"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_rentant_cy"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="25.78%"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_rentant_py"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="25.78%"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/a_tv_20"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="INTERÉSES ANTICIPADOS"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/ed_pi_interant_cy"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="25.78%"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/textView19"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="bottom"
+                                    android:text="25.78%"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/a_tv_21"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_row="7"
+                                    android:layout_weight="1"
+                                    android:paddingTop="10dp"
+                                    android:text="SUMA DIFERIDO"
+                                    android:textColor="@color/primary_text"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/tv_suma_diferido_cy"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:paddingTop="10dp"
+                                    android:text="$ 300000"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/secondary_text"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/tv_suma_diferido_cy"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:paddingTop="10dp"
+                                    android:text="$ 300000"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/secondary_text"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:paddingTop="20dp">
+
+                        <TextView
+                            android:id="@+id/a_tv_22"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingTop="10dp"
+                            android:text="SUMA TOTAL DE ACTIVO"
+                            android:textColor="@android:color/holo_red_dark"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/tv_suma_circulante_cy"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingTop="10dp"
+                            android:text="2017"
+                            android:textAlignment="center"
+                            android:textColor="@color/secondary_text"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/textView22"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingTop="10dp"
+                            android:text="$ 300000"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/holo_red_light"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/textView21"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingTop="10dp"
+                            android:text="2016"
+                            android:textAlignment="center"
+                            android:textColor="@color/secondary_text"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/tv_suma_circulante_py"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingTop="10dp"
+                            android:text="$ 300000"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/holo_red_light"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
